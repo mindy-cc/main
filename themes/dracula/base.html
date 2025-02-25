@@ -54,11 +54,14 @@
         {%- endif %}
 
     {%- endblock %}
+    <script src="assets/js/matrix.js"></script>
+    <link rel="stylesheet" href="assets/css/matrix.css">
 
 </head>
 
 <body class="drac-bg-black-secondary drac-text-grey-ternary drac-text drac-scrollbar-purple">
-
+    <div id="preload_courier"></div>
+    <div id="preload_code"></div>
     <main class="d-flex">
 
         <!-- block sidebar -->
@@ -70,17 +73,16 @@
         <nav class="divider drac-bg-purple-cyan"></nav>
 
         <div class="content">
-            <!-- block header -->
-            {%- block header %}
-                {% include "/modules/header.html" %}
-            {%- endblock %}
-            <!-- endblock -->
 
+
+            <!-- Canvas	-->
+            <canvas id="c"></canvas>
             <!-- block content -->
             {%- block content %}
                 {% include "/modules/content.html" %}
             {%- endblock %}
             <!-- endblock -->
+
 
             <!-- block footer -->
             {%- block footer %}

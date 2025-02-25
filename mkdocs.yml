@@ -1,14 +1,13 @@
-site_name: mindy.cc
+site_name: mindY
 theme:
   name: null
   custom_dir: themes/dracula
   # logo: assets/img/dracula.png
-  # favicon: assets/img/favicon.ico
-  # highlight_js: highlight.min.js
-  # highlight_css: atom-one-dark.min.css
+  favicon: assets/img/favicon.ico
+  highlight_js: highlight.min.js
+  highlight_css: atom-one-dark.min.css
   # highlight_css: github.min.css
 
 nav:
     - Home: index.md
-    - More:
-      - nav/settings/custom-highlight.md
+    - xyzroe : https://xyzroe.cc
