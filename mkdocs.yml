@@ -1,4 +1,6 @@
 site_name: mindY
+site_url: "https://mindy.cc"
+
 theme:
   name: null
   custom_dir: themes/dracula
